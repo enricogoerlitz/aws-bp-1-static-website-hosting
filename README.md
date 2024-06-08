@@ -2,7 +2,7 @@
 
 # Architecture
 
-![Architecture Diagram](architecture.png)
+![Architecture Diagram](architecture_.png)
 
 # 1. Configuration by Console
 
