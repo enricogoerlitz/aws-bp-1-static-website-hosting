@@ -13,6 +13,8 @@ This project demonstrates how to deploy a React application using AWS CloudFront
 
 ![Architecture Diagram](architecture_.png)
 
+<br>
+
 # Workingtasks
 
 ## 1. Configuration by Console
