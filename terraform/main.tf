@@ -61,6 +61,23 @@ resource "aws_s3_bucket_policy" "react_app" {
           "arn:aws:s3:::bp1.enricogoerlitz.com/*"
         ]
       },
+      {
+        Sid = "GitHubUserCICDAccess"
+        Principal = "*"
+        Action = [
+          "s3:*",
+        ]
+        Effect   = "Allow"
+        Resource = [
+          "arn:aws:s3:::bp1.enricogoerlitz.com",
+          "arn:aws:s3:::bp1.enricogoerlitz.com/*"
+        ],
+        Principal = {
+          AWS = [
+            "arn:aws:iam::533267024986:user/github-cicd-user"
+          ]
+        }
+      }
     ]
   })
   
