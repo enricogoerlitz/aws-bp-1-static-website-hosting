@@ -1,5 +1,5 @@
 # Basic Project 1 - Hosting static Website on AWS
-[![Deploy React App to S3](https://github.com/enricogoerlitz/aws-bp-1-static-website-hosting/actions/workflows/deployReactToS3.yml/badge.svg)](https://github.com/enricogoerlitz/aws-bp-1-static-website-hosting/actions/workflows/deployReactToS3.yml)
+[![Deploy React App to S3](https://github.com/enricogoerlitz/aws-bp-1-static-website-hosting/actions/workflows/deploy-react-app-to-s3.yml/badge.svg)](https://github.com/enricogoerlitz/aws-bp-1-static-website-hosting/actions/workflows/deploy-react-app-to-s3.yml)
 
 <br>
 
