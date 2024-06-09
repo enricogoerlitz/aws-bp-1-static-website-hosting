@@ -65,7 +65,9 @@ resource "aws_s3_bucket_policy" "react_app" {
         Sid = "GitHubUserCICDAccess"
         Principal = "*"
         Action = [
-          "s3:*",
+          "s3:PutObject",
+          "s3:GetObject",
+          "s3:ListBucket",
         ]
         Effect   = "Allow"
         Resource = [
