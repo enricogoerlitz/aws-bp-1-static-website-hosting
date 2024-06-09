@@ -1,2 +1,5 @@
 .vscode*
 .DS_Store
+terraform/.terraform*
+terraform/terraform.tfs*
+node_modules
