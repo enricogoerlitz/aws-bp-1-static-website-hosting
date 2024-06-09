@@ -20,11 +20,11 @@ jobs:
 
     - name: Install dependencies
       run: npm install
-      working-directory: ../../react-app
+      working-directory: ./react-app
 
     - name: Build React app
       run: npm run build
-      working-directory: ../../react-app
+      working-directory: ./react-app
 
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
@@ -37,4 +37,4 @@ jobs:
       run: aws s3 rm s3://bp1.enricogoerlitz.com --recursive
 
     - name: Deploy to S3
-      run: aws s3 cp ../../react-app/build s3://bp1.enricogoerlitz.com --recursive
+      run: aws s3 cp ./react-app/build s3://bp1.enricogoerlitz.com --recursive
